@@ -12,6 +12,6 @@ class PageController extends Controller
         // richiamo la tabella del DB
         $trains = Train::all();
         // dd($trains);
-        return view('trains.index', compact('trains'));
+        return view('home', compact('trains'));
     }
 }

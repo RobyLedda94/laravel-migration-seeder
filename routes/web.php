@@ -20,4 +20,4 @@ use App\Http\Controllers\PageController as PageController;
 // });
 
 // imposto la rotta 
-Route::get('/trains', [PageController::class, 'index'])->name('trains');
+Route::get('trains', [PageController::class, 'index'])->name('trains');

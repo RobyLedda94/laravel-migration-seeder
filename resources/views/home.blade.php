@@ -12,17 +12,17 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <h2>{{train->company}}</h2> 
+                                    <h2>{{$train->company}}</h2> 
                                 </div>
                                 <div class="card-body">
-                                    <p>{{train->departure_station}}</p>
-                                    <p>{{train->arrival_station}}</p>
-                                    <p>{{train->departure_time}}</p>
-                                    <p>{{train->arrival_time}}</p>
-                                    <p>{{train->train_code}}</p>
-                                    <p>{{train->carriage_number}}</p>
-                                    <p>{{train->on_time}}</p>
-                                    <p>{{train->cancelled}}</p>
+                                    <p>{{ $train->departure_station}}</p>
+                                    <p>{{$train->arrival_station}}</p>
+                                    <p>{{$train->departure_time}}</p>
+                                    <p>{{$train->arrival_time}}</p>
+                                    <p>{{$train->train_code}}</p>
+                                    <p>{{$train->carriage_number}}</p>
+                                    <p>{{$train->on_time}}</p>
+                                    <p>{{$train->cancelled}}</p>
                                 </div>
                             </div>
                         </div>
