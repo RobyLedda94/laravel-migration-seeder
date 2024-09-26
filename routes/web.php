@@ -15,9 +15,9 @@ use App\Http\Controllers\PageController as PageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // imposto la rotta 
 Route::get('/trains', [PageController::class, 'index'])->name('trains');
