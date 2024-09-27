@@ -7,6 +7,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+    <h1>prova</h1>
     <main>
         @yield('content')
     </main>
